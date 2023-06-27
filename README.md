@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @Sahilsharma81663
-- 👀 I’m interested in web development
-- 🌱 I’m currently learning web development
-- 💞️ I’m looking for an internishp
+- 🌱 I’m currently learning Python
+- 💞️ I’m looking for a job
 - 📫 How to reach me @sahilsharma81663@gmail.com
 
 <!---
