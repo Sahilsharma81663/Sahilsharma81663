@@ -1,0 +1,61 @@
+2025-06-26 16:46:32,361 - INFO - Ingesting begin_inventory.csv in db
+2025-06-26 16:46:39,477 - INFO - Ingesting end_inventory.csv in db
+2025-06-26 16:46:51,451 - INFO - Ingesting purchases.csv in db
+2025-06-26 16:48:44,168 - INFO - Ingesting purchase_prices.csv in db
+2025-06-26 16:49:03,771 - INFO - Ingesting sales.csv in db
+2025-06-26 17:29:22,762 - INFO - Ingesting vendor_invoice.csv in db
+2025-06-26 17:29:23,760 - INFO - Ingestion Complete
+2025-06-26 17:29:23,760 - INFO - Total time taken: 42.86588981548945 minutes
+2025-06-26 22:16:20,722 - INFO - Ingesting begin_inventory.csv in db
+2025-06-26 22:16:27,472 - INFO - Ingesting end_inventory.csv in db
+2025-06-26 22:16:40,626 - INFO - Ingesting purchases.csv in db
+2025-06-26 22:18:38,493 - INFO - Ingesting purchase_prices.csv in db
+2025-06-26 22:19:01,464 - INFO - Ingesting sales.csv in db
+2025-06-26 22:59:26,825 - INFO - Ingesting vendor_invoice.csv in db
+2025-06-26 22:59:27,841 - INFO - Ingestion Complete
+2025-06-26 22:59:27,841 - INFO - Total time taken: 43.125687368710835 minutes
+2025-06-28 14:59:57,877 - INFO - Creating vendor summary table...
+2025-06-28 15:00:49,786 - INFO - Vendor summary query executed in 51.91 seconds.
+2025-06-28 15:00:49,786 - INFO - Cleaning data...
+2025-06-28 15:00:49,804 - INFO - Ingesting data into MySQL...
+2025-06-28 15:00:50,518 - INFO - Vendor sales summary ingestion completed successfully.
+2025-06-28 15:03:14,763 - INFO - Creating vendor summary table...
+2025-06-28 15:04:06,013 - INFO - Vendor summary query executed in 51.25 seconds.
+2025-06-28 15:04:06,013 - INFO - Cleaning data...
+2025-06-28 15:04:06,053 - INFO - Preview of cleaned data:
+   VendorNumber                 VendorName  Brand  \
+0           105         ALTAMAR BRANDS LLC   8412   
+1          4466  AMERICAN VINTAGE BEVERAGE   5255   
+2          4466  AMERICAN VINTAGE BEVERAGE   5215   
+3           480            BACARDI USA INC   3348   
+4           480            BACARDI USA INC   8358   
+
+                    Description  PurchasePrice  Volume  ActualPrice  \
+0     Tequila Ocho Plata Fresno          35.71   750.0        49.99   
+1  TGI Fridays Ultimte Mudslide           9.35  1750.0        12.99   
+2  TGI Fridays Long Island Iced           9.41  1750.0        12.99   
+3           Bombay Sapphire Gin          22.38  1750.0        29.99   
+4             Bacardi 151 Proof          14.49   750.0        19.99   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesDollars  \
+0                  320.0              11427.20           15346.93   
+1                 6215.0              58110.25           79187.04   
+2                 4923.0              46325.43           60416.49   
+3                57349.0            1283470.62         1766391.12   
+4                 7071.0             102458.79          161219.35   
+
+   TotalSalesPrice  TotalSalesQuantity  TotalExciseTax  FreightCost  \
+0         12947.41               307.0          242.15        62.39   
+1         51180.60              6096.0        11204.28       793.91   
+2         41542.02              4651.0         8548.96       793.91   
+3        460087.95             56888.0       104524.54     89286.27   
+4         87396.28              8065.0         6352.66     89286.27   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesPurchaseRatio  
+0      3919.73     25.540808       0.959375            1.343018  
+1     21076.79     26.616464       0.980853            1.362703  
+2     14091.06     23.323202       0.944749            1.304175  
+3    482920.50     27.339387       0.991961            1.376261  
+4     58760.56     36.447585       1.140574            1.573504  
+2025-06-28 15:04:06,053 - INFO - Ingesting data into MySQL...
+2025-06-28 15:04:06,780 - INFO - Vendor sales summary ingestion completed successfully.
